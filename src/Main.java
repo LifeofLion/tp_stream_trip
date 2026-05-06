@@ -22,4 +22,11 @@ void main() {
     System.out.println("Count by city: " + p2.countByCity(trips) + "\n\n");
     System.out.println("Revenue by driver: " + p2.revenueByDriver(trips) + "\n\n");
     System.out.println("Avg duration by city: " + p2.avgDurationByCity(trips) + "\n\n");
+
+
+    System.out.println("\n--- Partie 3 ---\n");
+
+    Partie3 p3 = new Partie3();
+    System.out.println("Top 10 expensive: " + p3.top10ExpensiveTrips(trips) + "\n\n");
+    System.out.println("Best trip: " + p3.bestTrip(trips) + "\n\n");
 }
