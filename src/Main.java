@@ -29,4 +29,13 @@ void main() {
     Partie3 p3 = new Partie3();
     System.out.println("Top 10 expensive: " + p3.top10ExpensiveTrips(trips) + "\n\n");
     System.out.println("Best trip: " + p3.bestTrip(trips) + "\n\n");
+
+
+    System.out.println("\n--- Partie 4 ---\n");
+
+    Partie4 p4 = new Partie4();
+    System.out.println("Revenue sequential: " + p4.totalRevenueSequential(trips) + "\n\n");
+    System.out.println("Revenue parallel: " + p4.totalRevenueParallel(trips) + "\n\n");
+    System.out.println("Count by city parallel: " + p4.countByCityParallel(trips) + "\n\n");
+    System.out.println("Premium trips parallel: " + p4.premiumTripsParallel(trips));
 }
